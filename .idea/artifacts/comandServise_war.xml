@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="comandServise:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>comandServise</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="student.war">
+      <element id="artifact" artifact-name="comandServise:war exploded" />
+    </root>
+  </artifact>
+</component>
